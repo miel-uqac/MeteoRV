@@ -615,6 +615,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 188810562}
   m_CullTransparentMesh: 1
+--- !u!1 &226762109 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2707303645313174804, guid: 3ac741c58ee37a941b5408ec58f21743, type: 3}
+  m_PrefabInstance: {fileID: 1891174703}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &230310644
 GameObject:
   m_ObjectHideFlags: 0
@@ -1718,7 +1723,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &756192654
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1834,6 +1839,7 @@ GameObject:
   - component: {fileID: 837239342}
   - component: {fileID: 837239341}
   - component: {fileID: 837239343}
+  - component: {fileID: 837239344}
   m_Layer: 0
   m_Name: Weather Station
   m_TagString: Untagged
@@ -2170,6 +2176,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &837239344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 837239338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcdd2420c4a20418ba9cbf06604ef869, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  temperatureText: {fileID: 188810564}
+  lightningStormCloud: {fileID: 226762109}
 --- !u!1 &900780144
 GameObject:
   m_ObjectHideFlags: 0
